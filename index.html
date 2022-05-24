@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<div style="text-align: center; padding-right: 50px;"><iframe id="bus" frameBorder="0" src="https://docs.google.com/spreadsheets/d/14tBg5Va7sgiZGg8tUE-kzf6C_NJwAByqJfsUE0s_yUw/htmlembed/sheet?gid=1951479589&amp;range=C1:j7" width=900px height = 500px></iframe>
+</div>
+
+</body>
+</html>
+
+
+
+<script>
+function reload(){
+   document.getElementById("bus").src = "https://docs.google.com/spreadsheets/d/14tBg5Va7sgiZGg8tUE-kzf6C_NJwAByqJfsUE0s_yUw/htmlembed/sheet?gid=1951479589&amp;range=C1:j7"
+}
+
+setInterval(reload, 1000);
+</script>
